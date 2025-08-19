@@ -18,3 +18,4 @@ git reflog shows a log of all recent HEAD and branch movements, even those not i
 
 git reset moves your branch pointer to a previous commit.
 
+To create an alias for a command: git config --global alias.alias_name command
