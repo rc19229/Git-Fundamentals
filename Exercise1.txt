@@ -33,6 +33,13 @@ Stretch: Use stash pop, stash list, and stash drop.
 
 Commands to use: stash, stash list, stash pop, stash apply, stash drop
 
+🏷️ 6. Tagging Releases
+Task: Tag a commit with v1.0.0 and push the tag to a remote.
+
+Stretch: Create both lightweight and annotated tags.
+
+Commands to use: tag, push --tags, show....
+
 🔄 7. Undoing Mistakes
 Task: Try the following and recover:
 
