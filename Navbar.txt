@@ -1,1 +1,1 @@
-This is a sample navbar.
+This is a sample navbar file.
