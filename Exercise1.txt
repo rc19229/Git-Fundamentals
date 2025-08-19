@@ -1,0 +1,80 @@
+1. Repository Lifecycle
+Task: Create a new Git repository from scratch using git init.
+
+Validate: Create and track files, stage changes, commit them, and view log history.
+
+Commands to use: init, add, commit, status, log
+
+🌐 2. Remote Collaboration Simulation
+Task: Clone a public repository, add a new file, commit it, and push it to your fork.
+
+Validate: Practice syncing with the upstream repo using git pull and resolving any merge conflicts.
+
+Commands to use: clone, push, pull, remote, fetch, merge
+
+🌿 3. Feature Branching Workflow
+Task: Create a new branch called feature/navbar, make changes, and merge back into main.
+
+Stretch: Try both merge and rebase workflows.
+
+Commands to use: branch, checkout, merge, rebase, log --oneline --graph
+
+🎯 4. Conflict Resolution
+Task: Intentionally create a merge conflict (e.g., edit same line in two branches), then resolve it.
+
+Validate: Use a merge tool or manual resolution and complete the merge.
+
+Commands to use: merge, status, diff, add, commit, optionally mergetool
+
+📦 5. Stashing Work
+Task: Modify a file without committing, stash the changes, switch branches, then reapply the stash.
+
+Stretch: Use stash pop, stash list, and stash drop.
+
+Commands to use: stash, stash list, stash pop, stash apply, stash drop
+
+🏷️ 6. Tagging Releases
+Task: Tag a commit with v1.0.0 and push the tag to a remote.
+
+Stretch: Create both lightweight and annotated tags.
+
+Commands to use: tag, push --tags, show
+
+🔄 7. Undoing Mistakes
+Task: Try the following and recover:
+
+Revert a bad commit (git revert)
+
+Reset to an older commit and recover using reflog
+
+Commands to use: revert, reset, reflog, checkout, commit --amend
+
+🔁 8. Rebasing for Clean History
+Task: Create two feature branches, simulate development, then rebase one onto another.
+
+Validate: Squash multiple commits into one before merging.
+
+Commands to use: rebase, rebase -i, log, squash
+
+🤝 9. Basic GitHub Workflow
+Task: Fork a repo, make a PR (Pull Request), review another PR, and merge after review.
+
+Stretch: Request changes and make updates in response to review.
+
+Platform Tools: GitHub UI, gh CLI (optional)
+
+🛡️ 10. Branching Strategy Simulation
+Task: Apply a branching strategy (GitFlow or Trunk-based) in a small team.
+
+Validate: Practice feature → dev → release → main flows and hotfixes.
+
+Stretch: Define branch naming conventions and role of protected branches.
+
+📘 Bonus: Challenge Exercises
+Reproduce a deleted branch using reflog.
+
+Create a Git alias to simplify a frequent command.
+
+Setup a .gitignore file and explain why certain files should be excluded.
+
+Visualize commit history as a graph (git log --all --decorate --oneline --graph).

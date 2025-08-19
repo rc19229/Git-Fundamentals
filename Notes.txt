@@ -1,0 +1,13 @@
+To add and commit in the same command, use: git commit -am "your commit message"
+
+To create and switch to a new branch, use: git checkout -b branch_name
+
+To generate a SSH key: ssh-keygen -t rsa -b 4096
+To add the SSH key to the ssh-agent, use: eval `ssh-agent -s` && ssh-add ~/.ssh/id_rsa
+To copy the SSH key to your clipboard, use: cat ~/.ssh/id_rsa.pub | clip
+Go to GitHub and add the SSH key to your account settings.
+
+Command-Palette: Ctrl + Shift + P 
+Handy for using git commands quickly in VSCode without using the terminal.
+
+To view the differences between files, use: git diff file1.txt file2.txt
