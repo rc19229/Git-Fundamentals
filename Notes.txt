@@ -13,13 +13,3 @@ Handy for using git commands quickly in VSCode without using the terminal.
 To view the differences between files, use: git diff file1.txt file2.txt
 
 Stashing in Git is a way to temporarily save (or "stash away") your uncommitted changes in your working directory, so you can work on something else (like switching branches) without losing your progress.
-
-Tags in Git are used to mark specific points in your repository’s history as important—most commonly to label releases (like v1.0.0).
-Use "git tag" to create tags (lightweight or annotated).
-Use "git push origin <tag>" or "git push --tags" to push tags to remote.
-Use "git show <tag>" to view tag details.
-Checkout a tag (read-only, detached HEAD): git checkout v1.0.0
-This puts your working directory in the state of that tag’s commit.
-(Note: You are in “detached HEAD” state, so you’re not on a branch.)
-If you want to make changes:
-Create a new branch from the tag: git checkout -b new-branch-name v1.0.0
